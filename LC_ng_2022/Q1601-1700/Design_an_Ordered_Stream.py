@@ -8,7 +8,7 @@ class OrderedStream:
         self.ptr = 0
 
     def insert(self, idKey: int, value: str) -> List[str]:
-        self.data[idKey - 1] = value
+        self.data[idKey - 1] = valuegi
         ans = []
         while self.ptr < len(self.data) and self.data[self.ptr]:
             ans.append(self.data[self.ptr])
