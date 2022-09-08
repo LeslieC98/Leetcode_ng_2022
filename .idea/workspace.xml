@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58fe309d-00b7-498f-9f3f-e5c82bf8f7dc" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/LC_ng_2022/Bloomberg/Tree_BFS/116. Populating_Next_Right_Pointers_in_Each_Node[medium].py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LC_ng_2022/Bloomberg/Tree_BFS/314. Binary_Tree_Vertical_Order_Traversal[medium].py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LC_ng_2022/BST_tree/700. Search_in_a_Binary_Search_Tree[easy].py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/Tree/6.15 Tree专题.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/Tree/6.15 Tree专题.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +25,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2ET0xnVMJFfgqWdYiCcNoJs9csp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,7 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662604516140</updated>
-      <workItem from="1662604521096" duration="3389000" />
+      <workItem from="1662604521096" duration="4212000" />
+      <workItem from="1662667233580" duration="1509000" />
     </task>
     <servers />
   </component>
@@ -66,5 +70,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
