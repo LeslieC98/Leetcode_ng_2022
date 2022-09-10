@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58fe309d-00b7-498f-9f3f-e5c82bf8f7dc" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/LC_ng_2022/BST_tree/700. Search_in_a_Binary_Search_Tree[easy].py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LC_ng_2022/Bloomberg/Graph/200.Number_of_Islands[medium].py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/Tree/6.15 Tree专题.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/Tree/6.15 Tree专题.md" afterDir="false" />
     </list>
@@ -53,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1662604516140</updated>
       <workItem from="1662604521096" duration="4212000" />
-      <workItem from="1662667233580" duration="1509000" />
+      <workItem from="1662667233580" duration="2078000" />
+      <workItem from="1662845660441" duration="2579000" />
     </task>
     <servers />
   </component>
