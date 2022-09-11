@@ -158,7 +158,8 @@ class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         res = []
         visited = [False] * len(nums)
-        nums.sort()##为什么加了这步就可以了
+        nums.sort()##为什么加了这步就可以了,排序
+        
         
 
         def backtrack(nums, path, visited):
