@@ -19,7 +19,11 @@
 
   
 
+<<<<<<< HEAD
 ## 2. 回溯的模版
+=======
+## 1. 回溯的模版
+>>>>>>> 888632fb341394eaa1b205b7e0b3f38cd5ae2c72
 
 ```python
 模板:
@@ -39,6 +43,7 @@
 
 ![image-20220911155513292](/Users/lesliecheung/Library/Application Support/typora-user-images/image-20220911155513292.png)
 
+<<<<<<< HEAD
 
 
 
@@ -106,3 +111,5 @@ Explanation: There is 1 choose 1 = 1 total combination.
 
 ```
 
+=======
+>>>>>>> 888632fb341394eaa1b205b7e0b3f38cd5ae2c72

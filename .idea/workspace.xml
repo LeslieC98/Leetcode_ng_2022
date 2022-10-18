@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58fe309d-00b7-498f-9f3f-e5c82bf8f7dc" name="更改" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/LC_ng_2022/Bloomberg/String/28. Find_the_Index_of_the_First_Occurrence_in_a_String.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LC_ng_2022/Bloomberg/Trash.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LC_ng_2022/Bloomberg/backtrack/77. Combinations [medium].py" afterDir="false" />
@@ -20,6 +21,9 @@
       <change beforePath="$PROJECT_DIR$/notes/7.25 BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/7.25 BFS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/Heap/Heap and Priority Queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/Heap/Heap and Priority Queue.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/backtrack/backtrack.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/backtrack/backtrack.md" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 888632fb341394eaa1b205b7e0b3f38cd5ae2c72
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +200,7 @@
       <workItem from="1662604521096" duration="4212000" />
       <workItem from="1662667233580" duration="2078000" />
       <workItem from="1662845660441" duration="3211000" />
+<<<<<<< HEAD
       <workItem from="1662929770811" duration="770000" />
       <workItem from="1663046897048" duration="3911000" />
       <workItem from="1664898071469" duration="3999000" />
@@ -208,6 +213,8 @@
       <workItem from="1665852075039" duration="42000" />
       <workItem from="1666022038851" duration="2090000" />
       <workItem from="1666110900752" duration="5620000" />
+=======
+>>>>>>> 888632fb341394eaa1b205b7e0b3f38cd5ae2c72
     </task>
     <servers />
   </component>
