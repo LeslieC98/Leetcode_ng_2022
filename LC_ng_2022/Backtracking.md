@@ -151,7 +151,7 @@ Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 
 **还要强调的是去重一定要对元素进行排序，这样我们才方便通过相邻的节点来判断是否重复使用了**。
 
-![47.全排列II1](https://img-blog.csdnimg.cn/20201124201331223.png)
+<img alt="47.全排列II1" src="https://img-blog.csdnimg.cn/20201124201331223.png"/>
 
 ```python
 class Solution:

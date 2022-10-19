@@ -12,7 +12,7 @@ class RandomizedSet:
         ##在变长数组的末尾添加val
         if val in self.value_index:
             return False
-        ##在添加wal之前的变长数组长度为val所在下标index， 将val和下标inder存入哈希表；
+        ##在添加val之前的变长数组长度为val所在下标index， 将val和下标inder存入哈希表；
         self.value_index[val] = len(self.nums)
         self.nums.append(val)
         ##返回true
