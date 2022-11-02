@@ -26,6 +26,7 @@ class Solution:
             nums[slow] = 0
             slow += 1
         return nums
+c
 
 if __name__ == '__main__':
     nums = [0,1,0,3,12]
