@@ -1,3 +1,2 @@
-nums = [1,2,3,4]
-print(nums[:])
-print(nums[::-1])
+n = 12
+print(n%3)

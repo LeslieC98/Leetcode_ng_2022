@@ -15,7 +15,7 @@ class Solution:
             return []
         queue = collections.queue([root])
         while queue:
-            level = []
+
             for i in range(len(queue)):
                 node = queue.popleft()
                 ##如果它不是该层的最后一个元素，那么把它指向队列中的后面的元素（不把后面的这个弹出）
@@ -28,4 +28,6 @@ class Solution:
         return root
 """
 We traversal all nodes of the tree once so the time complexity is O(n)
+space: o(n)
+We're simulating BFS with a queue, so the queue is going to go through the tree, so it's order N.
 """
