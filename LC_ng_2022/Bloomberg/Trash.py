@@ -1,2 +1,4 @@
-n = 12
-print(n%3)
+if __name__ == '__main__':
+
+    print(11//10)
+
