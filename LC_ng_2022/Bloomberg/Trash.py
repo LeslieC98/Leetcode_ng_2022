@@ -1,4 +1,6 @@
 if __name__ == '__main__':
 
-    print(11//10)
+    nums = "catsanddog"
+    print(nums[:1])
+    print(nums[1:])
 
