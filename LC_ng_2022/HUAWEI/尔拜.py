@@ -5,23 +5,29 @@ from typing import List
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         m, n = len(grid), len(grid[0])
-
+        if not grid:
+            return 0
+        ##定义一个函数，用于深度优先搜索，将当前位置的相邻位置全部标记为0
         def dfs(grid, r, c):
+            # 如果当前位置超出网格的范围，则返回，如果当前位置为0，则表示已经访问过，则返回
             if not 0 <= r < m or not 0 <= c < n or grid[r][c] == "0":
-                return
+            # 将当前位置标记为0，表示已经访问过
             grid[r][c] = "0"
+            递归调用dfs函数，将当前位置的上下左右位置全部标记为0
             dfs(grid, r + 1, c)
             dfs(grid, r - 1, c)
             dfs(grid, r, c + 1)
             dfs(grid, r, c - 1)
 
-        island = 0
-        for r in range(m):
+        island = 0 #定义一个变量，用于记录岛屿的数量
+        for r in range(m): ##遍历网格中的每一个元素
             for c in range(n):
+                # 如果当前元素为1，则表示该位置为陆地，岛屿数量加1
                 if grid[r][c] == "1":
+                    # 调用dfs函数，将当前位置的相邻位置全部标记为0，表示已经访问过
                     dfs(grid, r, c)
                     island += 1
-        return island
+        return island ##返回岛屿的数量
 """
 ##BFS solution
 class Solution:
@@ -55,9 +61,9 @@ class Solution:
 
 if __name__ == '__main__':
     grid = [
-        ["1", "1", "1", "1", "0"],
-        ["1", "1", "0", "1", "0"],
         ["1", "1", "0", "0", "0"],
-        ["0", "0", "0", "0", "0"]
+        ["1", "1", "0", "0", "0"],
+        ["0", "0", "1", "0", "0"],
+        ["0", "0", "0", "1", "1"]
     ]
     print(Solution().numIslands(grid))
